@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/background.png</file>
+        <file>resource/background_minecraft.png</file>
+        <file>resource/background_paladium.png</file>
+        <file>resource/craftdium.png</file>
+        <file>resource/folder_minecraft.png</file>
+        <file>resource/folder_paladium.png</file>
+        <file>resource/icon.png</file>
+        <file>resource/maj.png</file>
+        <file>resource/maj_text.png</file>
+        <file>resource/play_minecraft.png</file>
+        <file>resource/play_paladium.png</file>
+        <file>resource/play_text.png</file>
+        <file>resource/discord_icon.png</file>
+    </qresource>
+</RCC>
