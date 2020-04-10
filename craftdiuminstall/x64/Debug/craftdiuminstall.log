@@ -1,4 +1,4 @@
 ﻿  main.cpp
-G:\craftdium\craftdiuminstall\pch.cpp(2,1): warning C4005: '_WIN32_WINNT': macro redefinition
+G:\.craftdium\craftdiuminstall\pch.cpp(2,1): warning C4005: '_WIN32_WINNT': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sdkddkver.h(217): message : see previous definition of '_WIN32_WINNT'
-  craftdiuminstall.vcxproj -> G:\craftdium\x64\Debug\craftdiuminstall.exe
+  craftdiuminstall.vcxproj -> G:\.craftdium\x64\Debug\craftdiuminstall.exe

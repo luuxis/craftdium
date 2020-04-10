@@ -37,7 +37,7 @@ void craftdium::on_pushButton_3_clicked()
 
 void craftdium::on_pushButton_4_clicked()
 {
-    system("cd minecraft & cd paladium & Start .paladium");
+    system("cd minecraft & cd paladium & cd APPDATA & Start .paladium");
 }
 
 void craftdium::on_pushButton_5_clicked()
@@ -48,4 +48,9 @@ void craftdium::on_pushButton_5_clicked()
 void craftdium::on_pushButton_6_clicked()
 {
     system("start https://discord.craftdium.ml");
+}
+
+void craftdium::on_pushButton_7_clicked()
+{
+    system("Start updatepaladium.bat");
 }

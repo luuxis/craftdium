@@ -34,6 +34,7 @@ public:
     QGraphicsView *graphicsView_3;
     QGraphicsView *graphicsView_5;
     QPushButton *pushButton_6;
+    QPushButton *pushButton_7;
 
     void setupUi(QMainWindow *craftdium)
     {
@@ -110,13 +111,18 @@ public:
         graphicsView_3->setStyleSheet(QString::fromUtf8("border-image: url(resource/maj_text.png);"));
         graphicsView_5 = new QGraphicsView(centralwidget);
         graphicsView_5->setObjectName(QString::fromUtf8("graphicsView_5"));
-        graphicsView_5->setGeometry(QRect(20, 90, 181, 91));
+        graphicsView_5->setGeometry(QRect(20, 80, 181, 101));
         graphicsView_5->setStyleSheet(QString::fromUtf8("border-image: url(resource/play_text.png);"));
         pushButton_6 = new QPushButton(centralwidget);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
         pushButton_6->setGeometry(QRect(1120, 580, 100, 100));
         pushButton_6->setCursor(QCursor(Qt::PointingHandCursor));
         pushButton_6->setStyleSheet(QString::fromUtf8("border-image: url(resource/discord_icon.png);"));
+        pushButton_7 = new QPushButton(centralwidget);
+        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+        pushButton_7->setGeometry(QRect(1040, 220, 161, 51));
+        pushButton_7->setCursor(QCursor(Qt::PointingHandCursor));
+        pushButton_7->setStyleSheet(QString::fromUtf8("border-image: url(resource/maj_text.png);"));
         craftdium->setCentralWidget(centralwidget);
 
         retranslateUi(craftdium);
@@ -126,13 +132,14 @@ public:
 
     void retranslateUi(QMainWindow *craftdium)
     {
-        craftdium->setWindowTitle(QCoreApplication::translate("craftdium", "craftdium beta 5", nullptr));
+        craftdium->setWindowTitle(QCoreApplication::translate("craftdium", "craftdium", nullptr));
         pushButton->setText(QString());
         pushButton_2->setText(QString());
         pushButton_3->setText(QString());
         pushButton_4->setText(QString());
         pushButton_5->setText(QString());
         pushButton_6->setText(QString());
+        pushButton_7->setText(QString());
     } // retranslateUi
 
 };
