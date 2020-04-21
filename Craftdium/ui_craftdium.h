@@ -115,7 +115,7 @@ public:
         graphicsView_5->setStyleSheet(QString::fromUtf8("border-image: url(resource/play_text.png);"));
         pushButton_6 = new QPushButton(centralwidget);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(1120, 580, 100, 100));
+        pushButton_6->setGeometry(QRect(1129, 580, 91, 100));
         pushButton_6->setCursor(QCursor(Qt::PointingHandCursor));
         pushButton_6->setStyleSheet(QString::fromUtf8("border-image: url(resource/discord_icon.png);"));
         pushButton_7 = new QPushButton(centralwidget);

@@ -21,7 +21,7 @@ int progress_bar (void *bar, double t, double d)
 
       cout<<"\r ";
       SetConsoleTextAttribute(hConsole, 160);
-      cout<<" Progress : [ ";
+      cout<<" telechargement : [ ";
 
       if(round(d/t*100) < 10)
       { cout<<"0"<<round(d/t*100)<<" %]"; }

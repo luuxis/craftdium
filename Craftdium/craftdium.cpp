@@ -22,7 +22,7 @@ craftdium::~craftdium()
 
 void craftdium::on_pushButton_clicked()
 {
-    system("cd minecraft & cd paladium & start paladium.bat");
+    system("cd minecraft & cd paladium & paladium.bat");
 }
 
 void craftdium::on_pushButton_2_clicked()
