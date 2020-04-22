@@ -222,10 +222,10 @@ border-radius: 16px</string>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>1129</x>
-      <y>580</y>
-      <width>91</width>
-      <height>100</height>
+      <x>1100</x>
+      <y>569</y>
+      <width>125</width>
+      <height>130</height>
      </rect>
     </property>
     <property name="cursor">

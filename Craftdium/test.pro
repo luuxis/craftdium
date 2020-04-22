@@ -24,13 +24,3 @@ FORMS    += craftdium.ui \
 RESOURCES += \
     image.qrc
 
-
-
-
-
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/curl/lib/ -lcurl
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/curl/lib/ -lcurl
-else:unix: LIBS += -L$$PWD/curl/lib/ -lcurl
-
-INCLUDEPATH += $$PWD/curl/include
-DEPENDPATH += $$PWD/curl/include
